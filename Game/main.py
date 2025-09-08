@@ -25,7 +25,7 @@ def main():
         print()
         guess = input("Enter your guess: ").lower()
 
-        if not guess.isalpha() or len(guess) != 1:      # check if is in string is other signs than alphabet or whole word
+        if not guess.isalpha() or len(guess) != 1:      # check if the input contains anything other than a single alphabet letter or whole words
             print("______________")
             print("Invalid input!")
             print("‾‾‾‾‾‾‾‾‾‾‾‾‾‾")
@@ -45,7 +45,7 @@ def main():
         if guess in answer:                             # If guess is in answer
             for index in range(len(answer)):            # Check all index in range of word lenght
                 if answer[index] == guess:              # If guessed letter is in index position
-                    hint[index] = guess                 # Change instead of _ put there guessed letter
+                    hint[index] = guess                 # Change  "_" put there guessed letter
         else:
             wrong_guess += 1
 
