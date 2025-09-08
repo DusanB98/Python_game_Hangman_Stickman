@@ -49,14 +49,14 @@ def main():
         else:
             wrong_guess += 1
 
-        if "_" not in hint:                             #If there are not _ in hint, the we win!
+        if "_" not in hint:                             # If there are not _ in hint, then we win!
             print()
             print("You WIN!")
             print(" ".join(hint))
             print(f"Number of wrong guesses: {wrong_guess}")
             print()
             stickman_running = False
-        elif wrong_guess > 10:                          #If wrong guesses are more than 10, game over
+        elif wrong_guess > 10:                          # If wrong guesses are more than 10, game over
             print()
             print("You LOST!")
             print(f"Right asnwer: {answer}")

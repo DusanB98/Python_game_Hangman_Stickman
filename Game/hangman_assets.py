@@ -1,7 +1,8 @@
-# Pythone game Hangman/Stickman - words and s
+# Pythone game Hangman/Stickman - words and stickman art
 # Author: DusanB98
 # Date: 4.9.2025
 
+# Words to guess
 words = (
     "aardvark", "albatross", "alligator", "alpaca", "ant", "anteater", "antelope", "ape", "armadillo", "asp",
     "baboon", "badger", "bandicoot", "barnacle", "bat", "bear", "beaver", "bee", "beetle", "binturong",
